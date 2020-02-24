@@ -203,12 +203,12 @@ class Admin_filtres_halls(unittest.TestCase):
 
 
     def setUp(self):
-        opts = Options()  # чтобы тест выполнялся без интерфейса
-        opts.headless = True  # чтобы тест выполнялся без интерфейса
+        #opts = Options()  # чтобы тест выполнялся без интерфейса
+        #opts.headless = True  # чтобы тест выполнялся без интерфейса
 
 
 
-        self.driver = webdriver.Chrome('/Users/rufina/.jenkins/workspace/Probanket_with_allure/chromedriver', options=opts) #/usr/local/bin/chromedriver, добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
+        self.driver = webdriver.Chrome('/home/rufina/mint_slave/tools/chromedriver/chromedriver')#, options=opts) #/usr/local/bin/chromedriver, добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
 
 
         self.driver.set_window_position(0, 0)  # устанавливает позицию левого вурзнего угла окна браузера
