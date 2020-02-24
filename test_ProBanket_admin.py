@@ -59,7 +59,7 @@ class TestAdmin_authorization(unittest.TestCase):
 
 
 
-        self.driver = webdriver.Chrome('/Users/rufina/.jenkins/workspace/Probanket_with_allure/chromedriverc') #/usr/local/bin/chromedriver, options=opts  добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
+        self.driver = webdriver.Chrome('/home/rufina/mint_slave/tools/chromedriver/chromedriver') #/usr/local/bin/chromedriver, options=opts  добавляем options=opts чтобы выполнилось без интерфейса, если что можно убрать эту опцию
 
 
 
